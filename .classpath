@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-14.06.00a-android-sdk-dbg/alljoyn-android/core/alljoyn-14.06.00a-dbg/java/jar/alljoyn.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-14.06.00a-android-sdk-dbg/alljoyn-android/core/alljoyn-14.06.00a-dbg/java/jar/alljoyn_test.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-14.06.00a-android-sdk-dbg/alljoyn-android/core/alljoyn-14.06.00a-dbg/java/jar/alljoyn-sources.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-14.06.00a-android-sdk-rel/alljoyn-android/core/alljoyn-14.06.00a-rel/java/jar/alljoyn.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-14.06.00a-android-sdk-rel/alljoyn-android/core/alljoyn-14.06.00a-rel/java/jar/alljoyn_test.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-config-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-config-14.06.00-rel/java/libs/alljoyn_config.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-controlpanel-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-controlpanel-14.06.00-rel/java/libs/ControlPanelAdapter.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-controlpanel-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-controlpanel-14.06.00-rel/java/libs/ControlPanelService.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-notification-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-notification-14.06.00-rel/java/libs/NotificationService.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-notification-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-notification-14.06.00-rel/java/libs/NSCommons.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-notification-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-notification-14.06.00-rel/java/libs/NSNativePlatformAndr.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-onboarding-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-onboarding-14.06.00-rel/java/libs/alljoyn_onboarding.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="lib" path="D:/ALLJoyn/alljoyn-onboarding-service-framework-14.06.00-android-sdk-rel/alljoyn-android/services/alljoyn-onboarding-14.06.00-rel/java/libs/alljoyn_onboarding_manager.jar" sourcepath="D:/ALLJoyn/alljoyn-suite-14.06.00a-src/alljoyn-suite-14.06.00a-src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

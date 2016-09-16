@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg5"
+    tools:context=".FileTransferActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hostButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/create"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/joinButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/join"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:enabled="false"
+            android:text="@string/share"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/requestButton"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:enabled="false"
+            android:text="@string/request"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/stopShareButton"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:enabled="false"
+            android:text="@string/stopShare"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/offerButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:enabled="false"
+            android:text="@string/offer"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/requestFileIdButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="0.55"
+            android:text="@string/fileId"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/receiveTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/receiveProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pauseReceiveButton"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:enabled="false"
+            android:text="@string/pause"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:enabled="false"
+            android:text="@string/cancel"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/sendProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/cancelSendButton"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:enabled="false"
+        android:text="@string/cancel"
+        android:textSize="12sp" />
+
+</LinearLayout>

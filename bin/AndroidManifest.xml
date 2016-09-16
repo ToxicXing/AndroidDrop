@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fasttrans"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" > </uses-sdk>
+    <!-- Permission required to use the TCP transport -->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"></uses-permission>
+    <!-- Permission required to use the Bluetooth transport -->
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission> 
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+   
+    <application
+        android:icon="@drawable/ajnicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".FastTrans"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+        <activity
+		    android:name=".TakePhoto"
+		    android:windowSoftInputMode="adjustResize"
+		    android:label="AllJoyn Take Photo">
+            <intent-filter>  
+                <action android:name="android.intent.action.takephoto" />  
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>  
+	    </activity>
+        
+        <activity android:name=".FileExplorer"
+            android:screenOrientation="portrait">
+            <intent-filter>  
+                <action android:name="android.intent.action.fileexplorer" />  
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter> 
+        </activity>
+        
+        <activity  android:name=".SDCardFileExplorer"
+               android:screenOrientation="portrait">
+           <intent-filter>  
+                <action android:name="android.intent.action.sdcardfileexploreractivity" />  
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter> 
+        </activity>
+        
+         <activity  android:name=".OpenSelectedFiles"
+               android:screenOrientation="portrait">
+           <intent-filter>  
+                <action android:name="android.intent.action.openselectedfiles" />  
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter> 
+            
+        </activity>
+        
+          <activity  android:name=".OpenFiles"
+               android:screenOrientation="portrait">
+            
+        </activity>
+    </application>
+
+</manifest>

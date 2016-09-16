@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastTrans</string>
+    <string name="create">Create Session</string>
+    <string name="join">Join Session</string>
+    <string name="share">Share Files</string>
+    <string name="stopShare">Stop Sharing</string>
+    <string name="request">Get Files</string>
+    <string name="offer">Offer Files</string>
+    <string name="fileId">My Files</string>
+    <string name="pause">Pause</string>
+    <string name="cancel">Cancel</string>
+    <string name="receiveTitle">Receiving Process</string>
+    <string name="sendTitle">Sending Process</string>
+    <string name="photo">Pic</string>
+    <string name="sessionName"/>
+    <string name="sessionPsw"/>
+    <string name="sessionNameHint">请设置会话名称</string>
+    <string name="sessionPswHint">请设置会话密码</string>
+    <string name="ok">OK</string>
+    <string name="selectimageorfile">Select Files</string>
+    <string name="selectimage">Picture</string>
+    <string name="selectotherfile">Other Files</string>  
+</resources>
